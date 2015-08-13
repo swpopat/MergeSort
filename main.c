@@ -9,7 +9,10 @@
 #include <stdio.h>
 
 
-//The idea behind merge sort is to compare individual items from two lists (list A and list B) ordered from least to greatest, remove the lesser of the two items and append it to a third list (list C). Once either list A or list B has no other items, append all items from the remaining list to list C in order. List C is now sorted list.
+/*The idea behind merge sort is to compare individual items from two lists (list A and list B)
+ ordered from least to greatest, remove the lesser of the two items and append it to a third
+ list (list C). Once either list A or list B has no other items, append all items from the
+ remaining list to list C in order. List C is now sorted list.*/
 
 
 int num[20];
